@@ -1,0 +1,16 @@
+PODS:
+  - CuzzyTest (0.1.0)
+
+DEPENDENCIES:
+  - CuzzyTest (from `../`)
+
+EXTERNAL SOURCES:
+  CuzzyTest:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CuzzyTest: a240053278e2bb15da1ca34379626f0090fb8006
+
+PODFILE CHECKSUM: 27cd06876fb72b551a5a02730c7d9f8aee26bd25
+
+COCOAPODS: 1.6.1

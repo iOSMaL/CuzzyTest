@@ -1,0 +1,775 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20688B9376F0AFB3A16872F7D2DC11F2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		20CF6C583334CB74A9DAACCD9DAFC361 /* Pods-CuzzyTest_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ECF104536EE3A4BB560ADE40B9212FC /* Pods-CuzzyTest_Tests-dummy.m */; };
+		4AA848674DB7EE7396E07C89E628EB46 /* CuzzyTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F49C134B65474D4391B21A2B86DC4B78 /* CuzzyTest-dummy.m */; };
+		653550B299C71673FEC3408D1D13EF72 /* CuzzyTest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E5FB04458F690658270E625DA28358A /* CuzzyTest-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		70F40F4FDA96351F7237A083A6310CB9 /* Pods-CuzzyTest_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 95F4273745A82BACD68CAE55BC8D69BB /* Pods-CuzzyTest_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99BBB53EADA028353541EEACD8522638 /* CuzzyView.h in Headers */ = {isa = PBXBuildFile; fileRef = A112262949ECC8451BC09D1316889DE0 /* CuzzyView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1D497F5FAF9FD27646C86478FD81A10 /* Pods-CuzzyTest_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB673F50F0FF43AA3EE2B47F01AD788 /* Pods-CuzzyTest_Example-dummy.m */; };
+		B58FBF7284A65488E692C5CEEE1293C5 /* Pods-CuzzyTest_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A95052C5355F9284CF98448B68751A95 /* Pods-CuzzyTest_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF64826BDBF38067E9F176F9D74062B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		D4AA30C59679FB29623A87B852CF04B7 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = E4324BAFAD9E02728D28BAB7E8E11DB9 /* ReplaceMe.m */; };
+		D56CA3759EF2BAD1476475DDD27219AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		F1D0BC891D60B1B20C6AB18D5CEA865A /* CuzzyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B6A9703561B9C71B44F0EB988C3F2E /* CuzzyView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		673E633621F1B3D854495E4223ECF91A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 872835C27BCC48032042519004A717EC;
+			remoteInfo = "Pods-CuzzyTest_Example";
+		};
+		D9F4E2D707573789D13274D9648F89B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B65D081FF909867550F8725E310E7791;
+			remoteInfo = CuzzyTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03F47D814D46D818FF4B2BA1BEEADB86 /* Pods_CuzzyTest_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CuzzyTest_Example.framework; path = "Pods-CuzzyTest_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CB673F50F0FF43AA3EE2B47F01AD788 /* Pods-CuzzyTest_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CuzzyTest_Example-dummy.m"; sourceTree = "<group>"; };
+		1863B439AF730BB73933119783FAF65C /* Pods-CuzzyTest_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CuzzyTest_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		22B6A9703561B9C71B44F0EB988C3F2E /* CuzzyView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CuzzyView.m; path = CuzzyTest/Classes/CuzzyView.m; sourceTree = "<group>"; };
+		26D661556C43554935E451D53FE7038D /* Pods-CuzzyTest_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CuzzyTest_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		28DCB25597954F1D5AB12D2072D520A1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		2F59743FAC2946A7187E470CDA48209B /* Pods-CuzzyTest_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CuzzyTest_Example.modulemap"; sourceTree = "<group>"; };
+		2FCE4946ED67A81C051913338EEDE697 /* Pods_CuzzyTest_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CuzzyTest_Tests.framework; path = "Pods-CuzzyTest_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		43BFE01547467E34C5F3B7D6F7D35BEF /* Pods-CuzzyTest_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CuzzyTest_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4DBA4C6A14C9D751AA6C46AC92B00A99 /* Pods-CuzzyTest_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CuzzyTest_Example.release.xcconfig"; sourceTree = "<group>"; };
+		5711D037B47EE98C5E213571C81D5D02 /* CuzzyTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CuzzyTest.framework; path = CuzzyTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DB8B6E1A9E7237A8D39FA3A1C3A9264 /* CuzzyTest-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CuzzyTest-Info.plist"; sourceTree = "<group>"; };
+		5E34CFD2E3C7A620E7E38BE57B503A2C /* Pods-CuzzyTest_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CuzzyTest_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		7AB1F7052ED7ABDDE96EDC1274D73CA3 /* CuzzyTest.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CuzzyTest.xcconfig; sourceTree = "<group>"; };
+		8A712EA5304DC70A08330E99B989BA65 /* Pods-CuzzyTest_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CuzzyTest_Example-frameworks.sh"; sourceTree = "<group>"; };
+		8E5FB04458F690658270E625DA28358A /* CuzzyTest-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CuzzyTest-umbrella.h"; sourceTree = "<group>"; };
+		95F4273745A82BACD68CAE55BC8D69BB /* Pods-CuzzyTest_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CuzzyTest_Tests-umbrella.h"; sourceTree = "<group>"; };
+		9D359FB296B112D326EC53637F8D88DD /* Pods-CuzzyTest_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CuzzyTest_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9ECF104536EE3A4BB560ADE40B9212FC /* Pods-CuzzyTest_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CuzzyTest_Tests-dummy.m"; sourceTree = "<group>"; };
+		A112262949ECC8451BC09D1316889DE0 /* CuzzyView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CuzzyView.h; path = CuzzyTest/Classes/CuzzyView.h; sourceTree = "<group>"; };
+		A95052C5355F9284CF98448B68751A95 /* Pods-CuzzyTest_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CuzzyTest_Example-umbrella.h"; sourceTree = "<group>"; };
+		B7169D41A5E3E75A4C5973A463210E6F /* Pods-CuzzyTest_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CuzzyTest_Example-Info.plist"; sourceTree = "<group>"; };
+		BF8D017F734D17BB0805A86060B8B194 /* CuzzyTest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CuzzyTest.modulemap; sourceTree = "<group>"; };
+		C6B0C23463BE99AD0D8A812254EB45E4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		C6C895DE8A9287CD35A99C3613922277 /* CuzzyTest.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CuzzyTest.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CB1183F4E38F3FFC51B187DBD895DEA3 /* Pods-CuzzyTest_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CuzzyTest_Tests-Info.plist"; sourceTree = "<group>"; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CCA3861874C8B65108A1C4BB2FD462DD /* Pods-CuzzyTest_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CuzzyTest_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		D4582A490D682C192ED513DEC58DEC67 /* Pods-CuzzyTest_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CuzzyTest_Tests.modulemap"; sourceTree = "<group>"; };
+		D8B23887F7018A16E26E679CC4B09BFC /* Pods-CuzzyTest_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CuzzyTest_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		E4324BAFAD9E02728D28BAB7E8E11DB9 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = CuzzyTest/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		E49330367A755CFBBB6485D33CD856A1 /* CuzzyTest-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CuzzyTest-prefix.pch"; sourceTree = "<group>"; };
+		F49C134B65474D4391B21A2B86DC4B78 /* CuzzyTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CuzzyTest-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0B5E7CCAD01C84B9B96C9298EDDA21D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF64826BDBF38067E9F176F9D74062B9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		181E389B77EE27ECC9A462B493436257 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D56CA3759EF2BAD1476475DDD27219AA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E711F0EF208A0614A1395DA058B7376 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20688B9376F0AFB3A16872F7D2DC11F2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0399C7C97E654C09D20D75603FF56564 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5711D037B47EE98C5E213571C81D5D02 /* CuzzyTest.framework */,
+				03F47D814D46D818FF4B2BA1BEEADB86 /* Pods_CuzzyTest_Example.framework */,
+				2FCE4946ED67A81C051913338EEDE697 /* Pods_CuzzyTest_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		13452D0155B03E3303B71550910FE143 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3EE0F7EF681B20711272A1C84C2544E4 /* Pods-CuzzyTest_Example */,
+				CD6B814D3A14977FC8AAA1587E7CABFA /* Pods-CuzzyTest_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		303EDF7AD86AF7083A5F7E7C8540E435 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				C6C895DE8A9287CD35A99C3613922277 /* CuzzyTest.podspec */,
+				C6B0C23463BE99AD0D8A812254EB45E4 /* LICENSE */,
+				28DCB25597954F1D5AB12D2072D520A1 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		3EE0F7EF681B20711272A1C84C2544E4 /* Pods-CuzzyTest_Example */ = {
+			isa = PBXGroup;
+			children = (
+				2F59743FAC2946A7187E470CDA48209B /* Pods-CuzzyTest_Example.modulemap */,
+				43BFE01547467E34C5F3B7D6F7D35BEF /* Pods-CuzzyTest_Example-acknowledgements.markdown */,
+				D8B23887F7018A16E26E679CC4B09BFC /* Pods-CuzzyTest_Example-acknowledgements.plist */,
+				0CB673F50F0FF43AA3EE2B47F01AD788 /* Pods-CuzzyTest_Example-dummy.m */,
+				8A712EA5304DC70A08330E99B989BA65 /* Pods-CuzzyTest_Example-frameworks.sh */,
+				B7169D41A5E3E75A4C5973A463210E6F /* Pods-CuzzyTest_Example-Info.plist */,
+				A95052C5355F9284CF98448B68751A95 /* Pods-CuzzyTest_Example-umbrella.h */,
+				5E34CFD2E3C7A620E7E38BE57B503A2C /* Pods-CuzzyTest_Example.debug.xcconfig */,
+				4DBA4C6A14C9D751AA6C46AC92B00A99 /* Pods-CuzzyTest_Example.release.xcconfig */,
+			);
+			name = "Pods-CuzzyTest_Example";
+			path = "Target Support Files/Pods-CuzzyTest_Example";
+			sourceTree = "<group>";
+		};
+		4D78DB806F60390438CDE57E897EF8DE /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B40991AE9A27DE61F02E6FB921FB84DF /* CuzzyTest */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		AE18AE2EC16D205D6BEFA1CB8D45294D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF8D017F734D17BB0805A86060B8B194 /* CuzzyTest.modulemap */,
+				7AB1F7052ED7ABDDE96EDC1274D73CA3 /* CuzzyTest.xcconfig */,
+				F49C134B65474D4391B21A2B86DC4B78 /* CuzzyTest-dummy.m */,
+				5DB8B6E1A9E7237A8D39FA3A1C3A9264 /* CuzzyTest-Info.plist */,
+				E49330367A755CFBBB6485D33CD856A1 /* CuzzyTest-prefix.pch */,
+				8E5FB04458F690658270E625DA28358A /* CuzzyTest-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CuzzyTest";
+			sourceTree = "<group>";
+		};
+		B40991AE9A27DE61F02E6FB921FB84DF /* CuzzyTest */ = {
+			isa = PBXGroup;
+			children = (
+				A112262949ECC8451BC09D1316889DE0 /* CuzzyView.h */,
+				22B6A9703561B9C71B44F0EB988C3F2E /* CuzzyView.m */,
+				E4324BAFAD9E02728D28BAB7E8E11DB9 /* ReplaceMe.m */,
+				303EDF7AD86AF7083A5F7E7C8540E435 /* Pod */,
+				AE18AE2EC16D205D6BEFA1CB8D45294D /* Support Files */,
+			);
+			name = CuzzyTest;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CD6B814D3A14977FC8AAA1587E7CABFA /* Pods-CuzzyTest_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D4582A490D682C192ED513DEC58DEC67 /* Pods-CuzzyTest_Tests.modulemap */,
+				1863B439AF730BB73933119783FAF65C /* Pods-CuzzyTest_Tests-acknowledgements.markdown */,
+				26D661556C43554935E451D53FE7038D /* Pods-CuzzyTest_Tests-acknowledgements.plist */,
+				9ECF104536EE3A4BB560ADE40B9212FC /* Pods-CuzzyTest_Tests-dummy.m */,
+				CB1183F4E38F3FFC51B187DBD895DEA3 /* Pods-CuzzyTest_Tests-Info.plist */,
+				95F4273745A82BACD68CAE55BC8D69BB /* Pods-CuzzyTest_Tests-umbrella.h */,
+				9D359FB296B112D326EC53637F8D88DD /* Pods-CuzzyTest_Tests.debug.xcconfig */,
+				CCA3861874C8B65108A1C4BB2FD462DD /* Pods-CuzzyTest_Tests.release.xcconfig */,
+			);
+			name = "Pods-CuzzyTest_Tests";
+			path = "Target Support Files/Pods-CuzzyTest_Tests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				4D78DB806F60390438CDE57E897EF8DE /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				0399C7C97E654C09D20D75603FF56564 /* Products */,
+				13452D0155B03E3303B71550910FE143 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		70EBAEE924782736DFC374CF56043A34 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B58FBF7284A65488E692C5CEEE1293C5 /* Pods-CuzzyTest_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B30B596431FDCFE1C994A1425F22C6F9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70F40F4FDA96351F7237A083A6310CB9 /* Pods-CuzzyTest_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D88B8107FF1AC39D8893D9CE9FAE9931 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				653550B299C71673FEC3408D1D13EF72 /* CuzzyTest-umbrella.h in Headers */,
+				99BBB53EADA028353541EEACD8522638 /* CuzzyView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5F7E3E7D8A8F62853DD94252F8B96F0B /* Pods-CuzzyTest_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BED35D972F8FB4A6AC29CCD617A28326 /* Build configuration list for PBXNativeTarget "Pods-CuzzyTest_Tests" */;
+			buildPhases = (
+				B30B596431FDCFE1C994A1425F22C6F9 /* Headers */,
+				B930EF499CA282FFD4D8A9D353418FC8 /* Sources */,
+				7E711F0EF208A0614A1395DA058B7376 /* Frameworks */,
+				873FD5E604F4CEBAA6C055DDBD05C85F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29B630598DF1985A28A3B05034EBB011 /* PBXTargetDependency */,
+			);
+			name = "Pods-CuzzyTest_Tests";
+			productName = "Pods-CuzzyTest_Tests";
+			productReference = 2FCE4946ED67A81C051913338EEDE697 /* Pods_CuzzyTest_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		872835C27BCC48032042519004A717EC /* Pods-CuzzyTest_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E58749BBC093D2E8FA6F0FE21AAAAC8 /* Build configuration list for PBXNativeTarget "Pods-CuzzyTest_Example" */;
+			buildPhases = (
+				70EBAEE924782736DFC374CF56043A34 /* Headers */,
+				A8B55EEB6DF5DC46989DAA85B7B730E9 /* Sources */,
+				0B5E7CCAD01C84B9B96C9298EDDA21D9 /* Frameworks */,
+				616A766CAB653ADCEABBA4C182D0FC68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F13EC2FF7D7A325794D3EA9E6F84BA4 /* PBXTargetDependency */,
+			);
+			name = "Pods-CuzzyTest_Example";
+			productName = "Pods-CuzzyTest_Example";
+			productReference = 03F47D814D46D818FF4B2BA1BEEADB86 /* Pods_CuzzyTest_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B65D081FF909867550F8725E310E7791 /* CuzzyTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7125808192B21F1FAEDE45C2CDB634A4 /* Build configuration list for PBXNativeTarget "CuzzyTest" */;
+			buildPhases = (
+				D88B8107FF1AC39D8893D9CE9FAE9931 /* Headers */,
+				31EB8DC052C6845E2FC10736BF2A7DD6 /* Sources */,
+				181E389B77EE27ECC9A462B493436257 /* Frameworks */,
+				22B7014133090BCEBB577756FADC8171 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CuzzyTest;
+			productName = CuzzyTest;
+			productReference = 5711D037B47EE98C5E213571C81D5D02 /* CuzzyTest.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 0399C7C97E654C09D20D75603FF56564 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B65D081FF909867550F8725E310E7791 /* CuzzyTest */,
+				872835C27BCC48032042519004A717EC /* Pods-CuzzyTest_Example */,
+				5F7E3E7D8A8F62853DD94252F8B96F0B /* Pods-CuzzyTest_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22B7014133090BCEBB577756FADC8171 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		616A766CAB653ADCEABBA4C182D0FC68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		873FD5E604F4CEBAA6C055DDBD05C85F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		31EB8DC052C6845E2FC10736BF2A7DD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AA848674DB7EE7396E07C89E628EB46 /* CuzzyTest-dummy.m in Sources */,
+				F1D0BC891D60B1B20C6AB18D5CEA865A /* CuzzyView.m in Sources */,
+				D4AA30C59679FB29623A87B852CF04B7 /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8B55EEB6DF5DC46989DAA85B7B730E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1D497F5FAF9FD27646C86478FD81A10 /* Pods-CuzzyTest_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B930EF499CA282FFD4D8A9D353418FC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20CF6C583334CB74A9DAACCD9DAFC361 /* Pods-CuzzyTest_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		29B630598DF1985A28A3B05034EBB011 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-CuzzyTest_Example";
+			target = 872835C27BCC48032042519004A717EC /* Pods-CuzzyTest_Example */;
+			targetProxy = 673E633621F1B3D854495E4223ECF91A /* PBXContainerItemProxy */;
+		};
+		9F13EC2FF7D7A325794D3EA9E6F84BA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CuzzyTest;
+			target = B65D081FF909867550F8725E310E7791 /* CuzzyTest */;
+			targetProxy = D9F4E2D707573789D13274D9648F89B6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		001D349454A1BF3AC738D8D8C8D29C93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AB1F7052ED7ABDDE96EDC1274D73CA3 /* CuzzyTest.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CuzzyTest/CuzzyTest-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CuzzyTest/CuzzyTest-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CuzzyTest/CuzzyTest.modulemap";
+				PRODUCT_MODULE_NAME = CuzzyTest;
+				PRODUCT_NAME = CuzzyTest;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		00C926F93A43BBC9A742BD853050F292 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCA3861874C8B65108A1C4BB2FD462DD /* Pods-CuzzyTest_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CuzzyTest_Tests/Pods-CuzzyTest_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CuzzyTest_Tests/Pods-CuzzyTest_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		05DF210AC65EBB0E593AAF976B2C2177 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		421ECB1396280A8D83853C3DDBED1700 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		4D3DCD4B54ADDC7F904CF7ECF74AFB15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E34CFD2E3C7A620E7E38BE57B503A2C /* Pods-CuzzyTest_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CuzzyTest_Example/Pods-CuzzyTest_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CuzzyTest_Example/Pods-CuzzyTest_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		620C5907A3DD4C5117E2057F1BD3E23F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D359FB296B112D326EC53637F8D88DD /* Pods-CuzzyTest_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CuzzyTest_Tests/Pods-CuzzyTest_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CuzzyTest_Tests/Pods-CuzzyTest_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		687453BBEC1C3F6D7DA9707BC63005C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AB1F7052ED7ABDDE96EDC1274D73CA3 /* CuzzyTest.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CuzzyTest/CuzzyTest-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CuzzyTest/CuzzyTest-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CuzzyTest/CuzzyTest.modulemap";
+				PRODUCT_MODULE_NAME = CuzzyTest;
+				PRODUCT_NAME = CuzzyTest;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A87591F798FA293C6000B398AABBA40F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DBA4C6A14C9D751AA6C46AC92B00A99 /* Pods-CuzzyTest_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CuzzyTest_Example/Pods-CuzzyTest_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CuzzyTest_Example/Pods-CuzzyTest_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				421ECB1396280A8D83853C3DDBED1700 /* Debug */,
+				05DF210AC65EBB0E593AAF976B2C2177 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E58749BBC093D2E8FA6F0FE21AAAAC8 /* Build configuration list for PBXNativeTarget "Pods-CuzzyTest_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D3DCD4B54ADDC7F904CF7ECF74AFB15 /* Debug */,
+				A87591F798FA293C6000B398AABBA40F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7125808192B21F1FAEDE45C2CDB634A4 /* Build configuration list for PBXNativeTarget "CuzzyTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				001D349454A1BF3AC738D8D8C8D29C93 /* Debug */,
+				687453BBEC1C3F6D7DA9707BC63005C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BED35D972F8FB4A6AC29CCD617A28326 /* Build configuration list for PBXNativeTarget "Pods-CuzzyTest_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				620C5907A3DD4C5117E2057F1BD3E23F /* Debug */,
+				00C926F93A43BBC9A742BD853050F292 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

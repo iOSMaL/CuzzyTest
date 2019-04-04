@@ -1,0 +1,6 @@
+framework module CuzzyTest {
+  umbrella header "CuzzyTest-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_CuzzyTest_Example {
+  umbrella header "Pods-CuzzyTest_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
